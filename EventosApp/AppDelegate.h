@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Participante.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, retain) Participante *participante;
 
 @end
 

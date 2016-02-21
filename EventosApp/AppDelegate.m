@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import <linkedin-sdk/LISDK.h>
-
 @interface AppDelegate ()
 
 @end
@@ -18,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+
     return YES;
 }
 

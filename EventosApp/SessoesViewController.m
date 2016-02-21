@@ -26,6 +26,8 @@
     
     self.dateFormatter = [[NSDateFormatter alloc] init];
     [self.dateFormatter setDateFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'"];
+
+
 }
 
 
@@ -111,6 +113,7 @@
     Sessao *sessao = [sessoes objectAtIndex:indexPath.row];
     cell.textLabel.text = sessao.nome;
     cell.detailTextLabel.text = sessao.descricao;
+
     return cell;
 }
 

@@ -21,6 +21,7 @@
 		678C09F11C79EEE700A8C7DD /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678C09F01C79EEE700A8C7DD /* linkedin-sdk.framework */; };
 		678C09F41C79F09800A8C7DD /* PerfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09F31C79F09800A8C7DD /* PerfilViewController.m */; };
 		678C09F71C7A0EAA00A8C7DD /* Participante.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09F61C7A0EAA00A8C7DD /* Participante.m */; };
+		678C09FA1C7A68D800A8C7DD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09F91C7A68D800A8C7DD /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		678C09F31C79F09800A8C7DD /* PerfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilViewController.m; sourceTree = "<group>"; };
 		678C09F51C7A0EAA00A8C7DD /* Participante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participante.h; sourceTree = "<group>"; };
 		678C09F61C7A0EAA00A8C7DD /* Participante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participante.m; sourceTree = "<group>"; };
+		678C09F81C7A68D800A8C7DD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		678C09F91C7A68D800A8C7DD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				678C09AB1C79B75800A8C7DD /* Supporting Files */,
 				678C09F21C79F09800A8C7DD /* PerfilViewController.h */,
 				678C09F31C79F09800A8C7DD /* PerfilViewController.m */,
+				678C09F81C7A68D800A8C7DD /* LoginViewController.h */,
+				678C09F91C7A68D800A8C7DD /* LoginViewController.m */,
 			);
 			path = EventosApp;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				678C09EA1C79C4D500A8C7DD /* Sessao.m in Sources */,
 				678C09B01C79B75800A8C7DD /* AppDelegate.m in Sources */,
 				678C09B31C79B75800A8C7DD /* SessoesViewController.m in Sources */,
+				678C09FA1C7A68D800A8C7DD /* LoginViewController.m in Sources */,
 				678C09F71C7A0EAA00A8C7DD /* Participante.m in Sources */,
 				678C09AD1C79B75800A8C7DD /* main.m in Sources */,
 				678C09ED1C79C59400A8C7DD /* Speaker.m in Sources */,

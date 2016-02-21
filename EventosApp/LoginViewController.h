@@ -1,5 +1,5 @@
 //
-//  PerfilViewController.h
+//  LoginViewController.h
 //  EventosApp
 //
 //  Created by Joao Sousa on 21/02/16.
@@ -11,15 +11,11 @@
 #import "Participante.h"
 #import "AppDelegate.h"
 
-@interface PerfilViewController : UIViewController
+@interface LoginViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIButton *autenticar;
 @property (nonatomic, retain) LISDKSession *session;
-@property (weak, nonatomic) IBOutlet UILabel *name;
-@property (weak, nonatomic) IBOutlet UIImageView *picture;
-@property (weak, nonatomic) IBOutlet UILabel *headline;
+@property (weak, nonatomic) IBOutlet UIButton *button;
 @property (nonatomic, retain) Participante *participante;
 
-
-
+-(void)createParticipant:(Participante *)p;
 @end

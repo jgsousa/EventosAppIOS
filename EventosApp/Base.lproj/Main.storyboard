@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cQ2-UD-Wb7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sessões-->
@@ -39,6 +40,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -144,54 +146,20 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3N-Dw-FK4">
-                                <rect key="frame" x="52" y="344" width="229" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="194" id="4nU-vA-zI1"/>
-                                    <constraint firstAttribute="height" constant="34" id="Cn8-Ja-906"/>
-                                    <constraint firstAttribute="width" constant="229" id="Dhc-Ty-ZQS"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="78" id="Iu3-ZU-Nkf"/>
-                                    <constraint firstAttribute="height" constant="78" id="RxJ-N9-dB7"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="34" id="XqK-zo-MDu"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="229" id="i4r-dx-zh9"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="194" id="sff-Fn-68U"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" backgroundImage="Sign-In-Small---Default"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="4nU-vA-zI1"/>
-                                        <exclude reference="Iu3-ZU-Nkf"/>
-                                        <exclude reference="RxJ-N9-dB7"/>
-                                        <exclude reference="XqK-zo-MDu"/>
-                                        <exclude reference="i4r-dx-zh9"/>
-                                        <exclude reference="sff-Fn-68U"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="onAuthenticatePress:" destination="AhR-iv-cbr" eventType="touchUpInside" id="ggc-nY-H3X"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RqJ-0k-bJo" firstAttribute="centerY" secondItem="pQ6-DQ-LUQ" secondAttribute="centerY" constant="51.5" id="2b5-83-wqe"/>
                             <constraint firstItem="TtL-Sa-VOO" firstAttribute="centerY" secondItem="pQ6-DQ-LUQ" secondAttribute="centerY" id="48q-Le-ek3"/>
                             <constraint firstItem="RqJ-0k-bJo" firstAttribute="centerX" secondItem="pQ6-DQ-LUQ" secondAttribute="centerX" id="GnN-dp-opE"/>
-                            <constraint firstItem="m3N-Dw-FK4" firstAttribute="centerY" secondItem="pQ6-DQ-LUQ" secondAttribute="centerY" id="OQL-wq-kFP"/>
                             <constraint firstItem="TtL-Sa-VOO" firstAttribute="centerX" secondItem="pQ6-DQ-LUQ" secondAttribute="centerX" id="Qja-cN-C20"/>
-                            <constraint firstItem="m3N-Dw-FK4" firstAttribute="centerY" secondItem="pQ6-DQ-LUQ" secondAttribute="centerY" constant="109" id="Rft-86-eIf"/>
                             <constraint firstItem="TtL-Sa-VOO" firstAttribute="centerX" secondItem="pQ6-DQ-LUQ" secondAttribute="centerX" id="pza-Yf-NSg"/>
                             <constraint firstItem="TtL-Sa-VOO" firstAttribute="centerY" secondItem="pQ6-DQ-LUQ" secondAttribute="centerY" constant="-5.5" id="rKR-2l-eFE"/>
-                            <constraint firstItem="m3N-Dw-FK4" firstAttribute="centerX" secondItem="pQ6-DQ-LUQ" secondAttribute="centerX" id="wN8-5C-Oan"/>
-                            <constraint firstItem="m3N-Dw-FK4" firstAttribute="centerX" secondItem="pQ6-DQ-LUQ" secondAttribute="centerX" constant="6.5" id="yOz-Em-Y3s"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="48q-Le-ek3"/>
                                 <exclude reference="pza-Yf-NSg"/>
-                                <exclude reference="OQL-wq-kFP"/>
-                                <exclude reference="wN8-5C-Oan"/>
                             </mask>
                         </variation>
                     </view>
@@ -201,7 +169,6 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="autenticar" destination="m3N-Dw-FK4" id="m7D-up-TK1"/>
                         <outlet property="headline" destination="RqJ-0k-bJo" id="hqw-WT-AQO"/>
                         <outlet property="name" destination="TtL-Sa-VOO" id="Ckw-EH-35L"/>
                         <outlet property="picture" destination="fkh-Zz-3ks" id="TYg-DN-FGV"/>
@@ -234,6 +201,55 @@
             </objects>
             <point key="canvasLocation" x="750" y="-375"/>
         </scene>
+        <!--Login View Controller-->
+        <scene sceneID="kXw-6m-Zek">
+            <objects>
+                <viewController id="cQ2-UD-Wb7" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pgO-8T-Wgg"/>
+                        <viewControllerLayoutGuide type="bottom" id="1iN-lh-F5F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Go-pT-7cE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen322x572" translatesAutoresizingMaskIntoConstraints="NO" id="hVT-ce-P9r">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhd-OV-K3x">
+                                <rect key="frame" x="38" y="407" width="244" height="44"/>
+                                <state key="normal" title="Button" image="Sign-In-Large---Default"/>
+                                <connections>
+                                    <action selector="login:" destination="cQ2-UD-Wb7" eventType="touchUpInside" id="xQB-Mk-Xnn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1iN-lh-F5F" firstAttribute="top" secondItem="Fhd-OV-K3x" secondAttribute="bottom" constant="117" id="1Vh-b2-vA3"/>
+                            <constraint firstItem="Fhd-OV-K3x" firstAttribute="top" secondItem="pgO-8T-Wgg" secondAttribute="bottom" constant="387" id="NYZ-u5-N7R"/>
+                            <constraint firstItem="Fhd-OV-K3x" firstAttribute="leading" secondItem="8Go-pT-7cE" secondAttribute="leadingMargin" constant="22" id="WA0-yA-1Qv"/>
+                            <constraint firstItem="Fhd-OV-K3x" firstAttribute="centerY" secondItem="8Go-pT-7cE" secondAttribute="centerY" constant="198.5" id="Z8c-7e-ewI"/>
+                            <constraint firstItem="Fhd-OV-K3x" firstAttribute="centerY" secondItem="8Go-pT-7cE" secondAttribute="centerY" constant="141" id="mU4-iz-46c"/>
+                            <constraint firstItem="Fhd-OV-K3x" firstAttribute="centerX" secondItem="8Go-pT-7cE" secondAttribute="centerX" id="zNZ-d8-seb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Z8c-7e-ewI"/>
+                                <exclude reference="mU4-iz-46c"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="button" destination="Fhd-OV-K3x" id="iQV-jg-mog"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="start" id="kW5-0L-g47"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8U-Wd-2nT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-618" y="-40"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -259,7 +275,8 @@
     <resources>
         <image name="Calendar-50" width="25" height="25"/>
         <image name="LinkedIn-50" width="25" height="25"/>
-        <image name="Sign-In-Small---Default" width="292" height="40"/>
+        <image name="Sign-In-Large---Default" width="430" height="80"/>
         <image name="User Male-50" width="25" height="25"/>
+        <image name="screen322x572" width="322" height="551"/>
     </resources>
 </document>
