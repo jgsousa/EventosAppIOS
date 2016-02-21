@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		678C09AD1C79B75800A8C7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09AC1C79B75800A8C7DD /* main.m */; };
 		678C09B01C79B75800A8C7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09AF1C79B75800A8C7DD /* AppDelegate.m */; };
-		678C09B31C79B75800A8C7DD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09B21C79B75800A8C7DD /* FirstViewController.m */; };
-		678C09B61C79B75800A8C7DD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09B51C79B75800A8C7DD /* SecondViewController.m */; };
+		678C09B31C79B75800A8C7DD /* SessoesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09B21C79B75800A8C7DD /* SessoesViewController.m */; };
+		678C09B61C79B75800A8C7DD /* ParticipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09B51C79B75800A8C7DD /* ParticipViewController.m */; };
 		678C09B91C79B75800A8C7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678C09B71C79B75800A8C7DD /* Main.storyboard */; };
 		678C09BB1C79B75800A8C7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678C09BA1C79B75800A8C7DD /* Assets.xcassets */; };
 		678C09BE1C79B75800A8C7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678C09BC1C79B75800A8C7DD /* LaunchScreen.storyboard */; };
 		678C09C91C79B75800A8C7DD /* EventosAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09C81C79B75800A8C7DD /* EventosAppTests.m */; };
 		678C09D41C79B75800A8C7DD /* EventosAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09D31C79B75800A8C7DD /* EventosAppUITests.m */; };
+		678C09EA1C79C4D500A8C7DD /* Sessao.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09E91C79C4D500A8C7DD /* Sessao.m */; };
+		678C09ED1C79C59400A8C7DD /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09EC1C79C59400A8C7DD /* Speaker.m */; };
+		678C09F11C79EEE700A8C7DD /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678C09F01C79EEE700A8C7DD /* linkedin-sdk.framework */; };
+		678C09F41C79F09800A8C7DD /* PerfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09F31C79F09800A8C7DD /* PerfilViewController.m */; };
+		678C09F71C7A0EAA00A8C7DD /* Participante.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C09F61C7A0EAA00A8C7DD /* Participante.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +45,10 @@
 		678C09AC1C79B75800A8C7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		678C09AE1C79B75800A8C7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		678C09AF1C79B75800A8C7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		678C09B11C79B75800A8C7DD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		678C09B21C79B75800A8C7DD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		678C09B41C79B75800A8C7DD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		678C09B51C79B75800A8C7DD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		678C09B11C79B75800A8C7DD /* SessoesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessoesViewController.h; sourceTree = "<group>"; };
+		678C09B21C79B75800A8C7DD /* SessoesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessoesViewController.m; sourceTree = "<group>"; };
+		678C09B41C79B75800A8C7DD /* ParticipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticipViewController.h; sourceTree = "<group>"; };
+		678C09B51C79B75800A8C7DD /* ParticipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticipViewController.m; sourceTree = "<group>"; };
 		678C09B81C79B75800A8C7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		678C09BA1C79B75800A8C7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		678C09BD1C79B75800A8C7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +59,15 @@
 		678C09CF1C79B75800A8C7DD /* EventosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		678C09D31C79B75800A8C7DD /* EventosAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventosAppUITests.m; sourceTree = "<group>"; };
 		678C09D51C79B75800A8C7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678C09E81C79C4D500A8C7DD /* Sessao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sessao.h; sourceTree = "<group>"; };
+		678C09E91C79C4D500A8C7DD /* Sessao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sessao.m; sourceTree = "<group>"; };
+		678C09EB1C79C59400A8C7DD /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
+		678C09EC1C79C59400A8C7DD /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speaker.m; sourceTree = "<group>"; };
+		678C09F01C79EEE700A8C7DD /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		678C09F21C79F09800A8C7DD /* PerfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilViewController.h; sourceTree = "<group>"; };
+		678C09F31C79F09800A8C7DD /* PerfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilViewController.m; sourceTree = "<group>"; };
+		678C09F51C7A0EAA00A8C7DD /* Participante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participante.h; sourceTree = "<group>"; };
+		678C09F61C7A0EAA00A8C7DD /* Participante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participante.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678C09F11C79EEE700A8C7DD /* linkedin-sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,7 @@
 		678C099F1C79B75800A8C7DD = {
 			isa = PBXGroup;
 			children = (
+				678C09F01C79EEE700A8C7DD /* linkedin-sdk.framework */,
 				678C09AA1C79B75800A8C7DD /* EventosApp */,
 				678C09C71C79B75800A8C7DD /* EventosAppTests */,
 				678C09D21C79B75800A8C7DD /* EventosAppUITests */,
@@ -104,17 +120,20 @@
 		678C09AA1C79B75800A8C7DD /* EventosApp */ = {
 			isa = PBXGroup;
 			children = (
+				678C09E11C79C34B00A8C7DD /* Objetos */,
 				678C09AE1C79B75800A8C7DD /* AppDelegate.h */,
 				678C09AF1C79B75800A8C7DD /* AppDelegate.m */,
-				678C09B11C79B75800A8C7DD /* FirstViewController.h */,
-				678C09B21C79B75800A8C7DD /* FirstViewController.m */,
-				678C09B41C79B75800A8C7DD /* SecondViewController.h */,
-				678C09B51C79B75800A8C7DD /* SecondViewController.m */,
+				678C09B11C79B75800A8C7DD /* SessoesViewController.h */,
+				678C09B21C79B75800A8C7DD /* SessoesViewController.m */,
+				678C09B41C79B75800A8C7DD /* ParticipViewController.h */,
+				678C09B51C79B75800A8C7DD /* ParticipViewController.m */,
 				678C09B71C79B75800A8C7DD /* Main.storyboard */,
 				678C09BA1C79B75800A8C7DD /* Assets.xcassets */,
 				678C09BC1C79B75800A8C7DD /* LaunchScreen.storyboard */,
 				678C09BF1C79B75800A8C7DD /* Info.plist */,
 				678C09AB1C79B75800A8C7DD /* Supporting Files */,
+				678C09F21C79F09800A8C7DD /* PerfilViewController.h */,
+				678C09F31C79F09800A8C7DD /* PerfilViewController.m */,
 			);
 			path = EventosApp;
 			sourceTree = "<group>";
@@ -143,6 +162,19 @@
 				678C09D51C79B75800A8C7DD /* Info.plist */,
 			);
 			path = EventosAppUITests;
+			sourceTree = "<group>";
+		};
+		678C09E11C79C34B00A8C7DD /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				678C09E81C79C4D500A8C7DD /* Sessao.h */,
+				678C09E91C79C4D500A8C7DD /* Sessao.m */,
+				678C09EB1C79C59400A8C7DD /* Speaker.h */,
+				678C09EC1C79C59400A8C7DD /* Speaker.m */,
+				678C09F51C7A0EAA00A8C7DD /* Participante.h */,
+				678C09F61C7A0EAA00A8C7DD /* Participante.m */,
+			);
+			name = Objetos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +244,7 @@
 				TargetAttributes = {
 					678C09A71C79B75800A8C7DD = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A38XXGDZ7S;
 					};
 					678C09C31C79B75800A8C7DD = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -275,10 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				678C09B61C79B75800A8C7DD /* SecondViewController.m in Sources */,
+				678C09F41C79F09800A8C7DD /* PerfilViewController.m in Sources */,
+				678C09B61C79B75800A8C7DD /* ParticipViewController.m in Sources */,
+				678C09EA1C79C4D500A8C7DD /* Sessao.m in Sources */,
 				678C09B01C79B75800A8C7DD /* AppDelegate.m in Sources */,
-				678C09B31C79B75800A8C7DD /* FirstViewController.m in Sources */,
+				678C09B31C79B75800A8C7DD /* SessoesViewController.m in Sources */,
+				678C09F71C7A0EAA00A8C7DD /* Participante.m in Sources */,
 				678C09AD1C79B75800A8C7DD /* main.m in Sources */,
+				678C09ED1C79C59400A8C7DD /* Speaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EventosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sousa.EventosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +472,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EventosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sousa.EventosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +553,7 @@
 				678C09DA1C79B75800A8C7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		678C09DB1C79B75800A8C7DD /* Build configuration list for PBXNativeTarget "EventosAppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +562,7 @@
 				678C09DD1C79B75800A8C7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		678C09DE1C79B75800A8C7DD /* Build configuration list for PBXNativeTarget "EventosAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +571,7 @@
 				678C09E01C79B75800A8C7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  EventosApp
 //
 //  Created by Joao Sousa on 21/02/16.
 //  Copyright © 2016 Joao Sousa. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ParticipViewController.h"
 
-@interface FirstViewController ()
+@interface ParticipViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ParticipViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,15 +1,13 @@
 //
-//  FirstViewController.h
+//  NSObject+kjk.h
 //  EventosApp
 //
 //  Created by Joao Sousa on 21/02/16.
 //  Copyright © 2016 Joao Sousa. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface FirstViewController : UIViewController
-
+@interface NSObject (kjk)
 
 @end
-
